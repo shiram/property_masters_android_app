@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddPropertyFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_five">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/item_name_tl"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input"
+            android:inputType="text"
+            android:id="@+id/item_name"
+            android:hint="@string/item_name"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/item_price_tl"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input"
+            android:inputType="text"
+            android:id="@+id/item_price"
+            android:hint="@string/item_price"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:id="@+id/item_category"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.AppCompatSpinner>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/item_desc_tl"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input"
+            android:inputType="text"
+            android:id="@+id/item_description"
+            android:hint="@string/item_description"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_image"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/item_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/ic_menu_camera" />
+
+
+    </LinearLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loc_country_tl"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input"
+                android:inputType="text"
+                android:id="@+id/location_country"
+                android:hint="@string/location_country"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loc_city_tl"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input"
+                android:inputType="text"
+                android:id="@+id/location_city"
+                android:hint="@string/location_city"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loc_addr_tl"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input"
+                android:inputType="text"
+                android:id="@+id/location_address1"
+                android:hint="@string/location_address_one"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loc_addrr_tl"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input"
+                android:inputType="text"
+                android:id="@+id/location_address2"
+                android:hint="@string/location_address_two"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_estate"
+        android:background="@drawable/button_option_two"
+        android:text="Add Estate"/>
+
+</LinearLayout>
+
+</ScrollView>

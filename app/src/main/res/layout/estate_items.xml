@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*">
+    <TableRow>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/product_image"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/estate_name"
+                android:textSize="14sp"
+                android:text=""/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:id="@+id/estate_price"
+                android:text="hhh"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/estate_category"
+                android:textSize="14sp"
+                android:text="hhh"/>
+
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*">
+        <TableRow>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_more"
+                android:textColor="#ffffff"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_option_two"
+                android:text="View More"/>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/make_appointment"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_option_two"
+                android:text="Make Appointment"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

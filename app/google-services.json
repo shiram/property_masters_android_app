@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "612692720347",
+    "firebase_url": "https://propertymasters-e5d7b.firebaseio.com",
+    "project_id": "propertymasters-e5d7b",
+    "storage_bucket": "propertymasters-e5d7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612692720347:android:0b3a055ba5696173",
+        "android_client_info": {
+          "package_name": "blacksantatech.com.propertymasters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612692720347-p99c4of051dj6jrag15eurebuhfrjto7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blacksantatech.com.propertymasters",
+            "certificate_hash": "f4f72937df6e4aa3bea7ea798a5706609f82c3a8"
+          }
+        },
+        {
+          "client_id": "612692720347-cb4gglscmi5no6lnb8ts872pkgqkk6vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu_-uUhosrYNwovotKk-CaDsrmMrU7ZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612692720347-cb4gglscmi5no6lnb8ts872pkgqkk6vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
